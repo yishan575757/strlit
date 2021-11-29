@@ -69,7 +69,7 @@ y_train, X_train = xy_split(train_t)
 y_test, X_test = xy_split(test_t)
 
 
-st.dataframe(X_train)
+#st.dataframe(X_train)
 
 #Random Forest
 clf = RandomForestClassifier(random_state=57)
